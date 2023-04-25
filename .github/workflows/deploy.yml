@@ -13,7 +13,7 @@ jobs:
       uses: 'google-github-actions/auth@v1'
       with:
         workload_identity_provider: 'projects/813885317674/locations/global/workloadIdentityPools/github-pool/providers/github-provider'
-        service_account: 'concrete-flight-383716@appspot.gserviceaccount.com'
+        service_account: 'github-actions-service-account'
 
     - id: 'deploy'
       uses: 'google-github-actions/deploy-cloud-functions@v1'
