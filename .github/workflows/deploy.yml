@@ -22,7 +22,6 @@ jobs:
       uses: 'google-github-actions/deploy-cloud-functions@v1'
       with:
         name: 'deadfellaz-pixel'
-        region: europe-west2
         runtime: 'python39'
         entry_point: 'sprite_sheet_to_gif'
         source_dir: './'
